@@ -24,6 +24,7 @@ img {
     text-align: center;
     position: relative;
 }
+
 .menu {
     display: none;
 }
@@ -68,12 +69,13 @@ img {
     background-color: rgba(0, 0, 0, .1);
 }
 
-.intro__text h1 {
+.intro__text--h1 {
     font-family: 'Notable', sans-serif;
     font-size: 2rem;
     letter-spacing: 3px;
     padding-bottom: .5em;
     text-shadow: 1px 1px 2px lightblue;
+    text-align: center;
 }
 
 .intro__text p {
@@ -85,7 +87,7 @@ img {
     line-height: 2em;
 }
 
-.intro__text a {
+.intro__text--a {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
@@ -227,4 +229,226 @@ img {
     width: 90%;
     margin: auto;
     color: #fff;
+}
+
+@media only screen and (min-width: 1000px){
+    .row {
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .bars {
+        display: none;
+        
+    }
+    
+    .menu ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu li {
+        margin: 1em 2em;
+        
+        
+    }
+    
+    .menu a {
+        font-size: 1.3rem;
+        transition: .2s;
+    }
+
+    .menu a:hover {
+        font-size: 1.4rem;
+        color: royalblue;
+    }
+    
+    .intro__text {
+        text-align: center;
+        padding: 1em 0;
+        background-color: rgba(0, 0, 0, .1);
+        width: 40%;
+        
+    }
+
+    .intro {
+        position: relative;
+        max-width: 1200px;
+    }
+
+    .intro__text--h1 {
+        
+        font-size: 4rem;
+        
+    }
+
+    .intro__text p {
+        font-size: 1.2rem;
+        
+    }
+
+    .intro__text--a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        background-color: #111;
+        padding: .5em 1.5em;
+        border-radius: 5px;
+        color: #fff;
+        margin: 1em;
+        transition: .2s;
+    }
+
+    .intro__text--a:hover {
+        background-color: royalblue;
+        font-size: 1.1rem;
+        box-shadow: 2px 2px 5px #000;
+    }   
+
+    .intro__text--img {
+        width: 60%;
+        position: absolute;
+        top: 10em;
+        left: 50%;
+    }
+
+    .services {
+        padding: 4em 0;
+        
+        
+    }
+    .services h1 {
+        
+        font-size: 3rem;
+        
+    }
+    .banner {
+        width: 32%;
+    }
+    
+    .banner h2 {
+        
+        font-size: 2.3rem;
+    }
+    
+    .banner p {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-bottom: .5em;
+        width: 100%;
+        
+        
+    }
+    .banner img {
+        opacity: .7;
+        transition: .2s;
+
+    }
+
+    .banner img:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    
+    .banner a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        background-color: #fff;
+        padding: .5em 1em;
+        border-radius: 5px;
+        font-family: 'Playfair Display', serif;
+        color: #000;
+        margin-bottom: 1em;
+        transition: .2s;
+    }
+
+    .banner a:hover {
+        background-color: royalblue;
+        font-size: 1.1rem;
+        box-shadow: 2px 2px 5px #000;
+    }
+    
+    .blog {
+        margin-bottom: 1.5em;
+        
+    }
+    
+    .blog h1 {
+        
+        font-size: 3rem;
+        
+    }
+    .blog__post {
+        width: 32%;
+    }
+
+    .blog__post img {
+        opacity: .7;
+        transition: .2s;
+    }
+
+    .blog__post img:hover {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    
+    .blog__post h2 {
+        font-size: 2.3rem;
+    }
+    
+    .blog__content p {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+        
+        
+    }
+    
+    .blog__content a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        background-color: #fff;
+        padding: .5em 1em;
+        border-radius: 5px;
+        font-family: 'Playfair Display', serif;
+        color: #000;
+        margin-bottom: 1em;
+        transition: .2s;
+    }
+    
+    .blog__content a:hover {
+        background-color: royalblue;
+        font-size: 1.1rem;
+        box-shadow: 2px 2px 5px #000;
+    }
+    
+    
+    .contact h1 {
+        
+        font-size: 3rem;
+        
+    }
+    
+    .contact__img {
+        width: 40%;
+        
+    }
+    .contact__text {
+        width: 55%;
+        
+    }
+    
+    .contact__text p {
+        font-size: 1.2rem;
+        width: 95%;
+        line-height: 2em;
+    }
+    
 }

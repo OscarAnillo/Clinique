@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.row {
+    display: block;
+}
+
+.about {
+    background-color: #eee;
+    padding: 1.125em 0;
+    text-align: center;
+    position: relative;
+}
+.menu {
+    display: none;
+}
+
+.bars {
+    position: absolute;
+    top: 0.3em;
+    right: 0;
+    
+}
+
+.bars .fa {
+    color: black;
+    font-size: 1.5rem;
+    
+}
+
+.menu li {
+    margin: 1em 0;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111;
+    font-family: 'Merriweather', serif;
+    text-shadow: 1px 1px 2px #000;
+    letter-spacing: 5px;
+}
+
+/* Intro Section */
+
+.intro {
+    padding: 3em 0;
+    
+}
+
+.intro__text {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.intro__text h1 {
+    font-family: 'Notable', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-bottom: .5em;
+    text-shadow: 1px 1px 2px lightblue;
+}
+
+.intro__text p {
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    padding-bottom: .5em;
+    width: 90%;
+    margin: auto;
+    line-height: 2em;
+}
+
+.intro__text a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #fff;
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+}
+
+/* Services Section */
+
+.services {
+    padding: 3em 0;
+    text-align: center;
+    
+}
+.services h1 {
+    font-family: 'Notable', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-bottom: .5em;
+    text-shadow: 1px 1px 2px lightblue;
+}
+
+.services__content {
+    background-color: #eee;
+    padding-bottom: .5em;
+}
+
+.banner h2 {
+    font-family: 'Merriweather', serif;
+    text-shadow: 1px 1px 2px lightblue;
+}
+
+.banner p {
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    padding-bottom: .5em;
+    width: 95%;
+    margin: auto;
+    
+}
+
+.banner a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #fff;
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.blog {
+    padding: 3em 0;
+    background-color: #eee;
+}
+
+.blog h1 {
+    font-family: 'Notable', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-bottom: .5em;
+    text-shadow: 1px 1px 2px lightblue;
+    text-align: center;
+}
+
+.blog__content {
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.blog__post h2 {
+    font-family: 'Merriweather', serif;
+    text-shadow: 1px 1px 2px lightblue; 
+    
+}
+
+.blog__content p {
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    padding-bottom: .5em;
+    width: 95%;
+    margin: auto;
+    
+}
+
+.blog__content a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #fff;
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    color: #000;
+    margin-bottom: 1em;
+    
+}
+
+/* Contact Section */
+
+.contact {
+    padding-bottom: 3em;
+    
+    
+}
+
+.contact h1 {
+    font-family: 'Notable', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-bottom: .5em;
+    text-shadow: 1px 1px 2px lightblue;
+    text-align: center;
+}
+
+.contact__img {
+    width: 90%;
+    margin-bottom: 1em;
+    margin: auto;
+}
+.contact__text {
+    background-color: #111;
+    padding: 2em 0;
+}
+
+.contact__text p {
+    
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    
+    width: 90%;
+    margin: auto;
+    color: #fff;
+}
